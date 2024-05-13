@@ -93,7 +93,7 @@ const resolvers = {
       return res
     },
     deletePhone: async (_, { id }) => {
-      const res = await Phone.findByIdAndRemove({
+      const res = await Phone.findByIdAndDelete({
         _id: id
       })
 

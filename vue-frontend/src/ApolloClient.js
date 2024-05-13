@@ -5,7 +5,7 @@ import { ApolloClient, createHttpLink, InMemoryCache } from '@apollo/client/core
 // HTTP соединение к API
 const httpLink = createHttpLink({
   // Адрес API приложения
-  uri: 'http://localhost:9000/graphql',
+  uri: 'http://localhost:8080/graphql',
 })
 
 // Активируем кеш в памяти
